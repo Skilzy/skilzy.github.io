@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'fira-sans';
+	text-shadow: 5px 5px 10px black;
+}
+
+p{
+	text-align: justify;
+	font-size: 20px;
+	color: white;
+}
+
+img {
+	height : 15vh;
+	width: auto;
+	object-fit:contain;
+	box-shadow: 5px 5px 10px black;
+}
+
+.main-div{
+	background-image: url("../image/bricks.jpg");
+	background-size: cover;
+}
+
+.titre{
+	font-weight: bold;
+	font-size: 4vh;
+	color: white
+}
+
+#titre-principal{
+	font-size:5vh;
+	transform: translateY(50%);
+}
+
+.main-div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.child-div{
+	width: 90%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin : 2vw !important
+}
+
+.gif-div{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin : 2vh 0
+
+}
+
+
