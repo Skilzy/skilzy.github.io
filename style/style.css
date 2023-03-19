@@ -1,0 +1,104 @@
+* {
+
+	margin: 0;
+	padding: 0;
+	font-family: 'fira-sans';
+
+}
+
+button {
+	cursor: pointer;
+}
+
+#banner {
+	width: 100%;
+	background-image: url(../image/banner.jpg);
+	height: 60vh;
+	background-size: cover;
+	background-position: 50% 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#titre {
+	font-size: 10vh;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+}
+
+#btn-parent {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: auto;
+	margin: 40px 0px;
+
+}
+
+.btn {
+	height: 15vw;
+	width: 15vw;
+	background-color: yellow;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	align-items: center;
+	background-size: cover;
+	background-position: 25% 50%;
+
+}
+
+#btn1 {
+	background-image: url(../image/spell.jpg);
+
+}
+
+#btn2 {
+	background-image: url(../image/poudlard.jpg);
+}
+
+#btn3 {
+	background-image: url(../image/luna.jpg);
+}
+
+#titre-about {
+	padding-left: 50px;
+	margin-top: 10px;
+}
+
+#about {
+	height: auto;
+	width: auto;
+	border: 2px solid black;
+	margin: 0px 20px 20px 20px;
+	color: white;
+	font-size: 1.1em;
+	font-weight: 500;
+	text-shadow: 2px 2px 1px black;
+
+}
+
+#description {
+	text-align: justify;
+	margin: 20px;
+	color: white;
+	font-size: 1.1em;
+}
+
+#text-fin {
+	display: flex;
+	justify-content: center;
+	color: lightgrey;
+	padding-bottom: 10px;
+	
+
+}
+
+#ground {
+	background-image: url("../image/bricks.jpg");
+	padding-top: 20px;
+}
